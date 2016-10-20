@@ -38,4 +38,9 @@ if (isset($_GET['channel']) && preg_match("/^[a-zA-Z0-9_]{4,25}$/u", $_GET['chan
 		echo "Couldn't get the token";
 	}
 }
+else
+{
+	echo "Channel name not provided or invalid";
+}
+
 ?>
