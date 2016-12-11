@@ -2,7 +2,7 @@
 
 /* Copyright © 2016 toxiicdev.net */
 
-$clientId = "your_client_key_here"; // Set your client key
+$clientId = "jzkbprff40iqj646a697cyrvl0zt2m6"; // Set your client key
 
 // Curl function
 
