@@ -30,7 +30,7 @@ A lightweight and developer-friendly PHP script to retrieve the **direct `.m3u8`
 Upload `script.php` to your web server and access it like so:
 
 ```bash
-GET /script.php?channel=shroud
+GET /script.php?channel=dorozeaxd
 ```
 
 This will respond with a `Location` redirect to the `.m3u8` stream.
@@ -38,7 +38,7 @@ This will respond with a `Location` redirect to the `.m3u8` stream.
 Want JSON instead?
 
 ```bash
-GET /script.php?channel=shroud&format=json
+GET /script.php?channel=dorozeaxd&format=json
 ```
 
 #### Optional: Set `Content-Type: application/json` header for JSON output
@@ -50,13 +50,13 @@ GET /script.php?channel=shroud&format=json
 Run from terminal:
 
 ```bash
-php script.php channel=shroud
+php script.php channel=dorozeaxd
 ```
 
 To get JSON output:
 
 ```bash
-php script.php channel=shroud format=json
+php script.php channel=dorozeaxd format=json
 ```
 
 ---
@@ -65,7 +65,7 @@ php script.php channel=shroud format=json
 
 | Name       | Required | Description                                      |
 |------------|----------|--------------------------------------------------|
-| `channel`  | ✅ Yes    | Twitch channel name (e.g., `shroud`)             |
+| `channel`  | ✅ Yes    | Twitch channel name (e.g., `dorozeaxd`)             |
 | `format`   | ❌ No     | Use `json` for JSON output, otherwise redirects |
 
 ---
@@ -75,8 +75,8 @@ php script.php channel=shroud format=json
 ```json
 {
   "success": true,
-  "channel": "shroud",
-  "url": "https://usher.ttvnw.net/api/channel/hls/shroud.m3u8?...&sig=...&token=..."
+  "channel": "dorozeaxd",
+  "url": "https://usher.ttvnw.net/api/channel/hls/dorozeaxd.m3u8?...&sig=...&token=..."
 }
 ```
 
